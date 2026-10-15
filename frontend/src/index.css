@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0d;
+  --color-panel: #121218;
+  --color-line: #23232e;
+  --color-amber: #f5b942;
+  --color-mint: #4ade80;
+  --color-rose: #fb7185;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+body {
+  margin: 0;
+  color: #e8e8ee;
+  font-family: Inter, system-ui, sans-serif;
+  background:
+    radial-gradient(900px 500px at 85% -10%, rgba(245, 185, 66, 0.12), transparent 60%),
+    radial-gradient(700px 400px at -10% 110%, rgba(74, 222, 128, 0.07), transparent 60%),
+    var(--color-ink);
+  min-height: 100vh;
+}

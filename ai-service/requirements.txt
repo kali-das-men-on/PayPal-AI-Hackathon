@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2
+langchain>=0.3
+langchain-anthropic>=0.3
+# Using another provider? Install its package (e.g. langchain-openai) and set DD_MODEL="openai:<model>".
